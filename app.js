@@ -13,10 +13,8 @@ async function loadCatalog(force=false) {
     render();
     $("updated").textContent = data.generatedAt ? `Mis à jour ${new Date(data.generatedAt).toLocaleString("fr-FR")}` : "";
     $("status").textContent = "● À jour";
-    $("status").style.color = "#4db84d";
   } catch (e) {
     $("status").textContent = "Erreur de synchronisation";
-    $("status").style.color = "#ff6680";
     console.error(e);
   }
 }
@@ -40,18 +38,6 @@ function render(){
   $("grid").innerHTML=state.filtered.map(card).join("");
 }
 
-function getCardGradient(index) {
-  const gradients = [
-    "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
-    "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
-    "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
-    "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
-    "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
-    "linear-gradient(135deg, #30cfd0 0%, #330867 100%)"
-  ];
-  return gradients[index % gradients.length];
-}
-
 function card(x, index){
   const tags=(x.tags||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
   const imageHtml = x.image ? 
@@ -59,7 +45,7 @@ function card(x, index){
     `<div class="card-image-placeholder">🧩</div>`;
   
   return `<article class="card">
-    <div class="card-image" style="${x.image ? '' : `background: ${getCardGradient(index)};`}">
+    <div class="card-image">
       ${imageHtml}
     </div>
     <div class="card-content">
@@ -71,7 +57,7 @@ function card(x, index){
       <div class="tags">${tags}</div>
       <div class="actions">
         ${x.url?`<a class="primary" href="${safeUrl(x.url)}" target="_blank" rel="noopener">Ouvrir</a>`:""}
-        ${x.codeUrl?`<button onclick="copyUrl('${attr(x.codeUrl)}')">Copier URL</button>`:""}
+        ${x.codeUrl?`<button onclick="copyUrl('${attr(x.codeUrl)}')">URL</button>`:""}
         <button onclick='showDetails(${JSON.stringify(x).replace(/'/g,"&#39;")})'>Détails</button>
       </div>
     </div>
@@ -80,7 +66,7 @@ function card(x, index){
 
 function showDetails(x){
   const imageHtml = x.image ?
-    `<div style="width: 100%; height: 200px; border-radius: 8px; margin-bottom: 16px; overflow: hidden; border: 2px solid #e0e0e0;"><img src="${safeUrl(x.image)}" alt="${esc(x.name||'Extension')}" style="width: 100%; height: 100%; object-fit: cover;"></div>` :
+    `<div class="details-image"><img src="${safeUrl(x.image)}" alt="${esc(x.name||'Extension')}" onerror="this.style.display='none'"></div>` :
     "";
   
   $("detailsContent").innerHTML=`
@@ -89,8 +75,8 @@ function showDetails(x){
     <h2>${esc(x.name||x.id)}</h2>
     <p>${esc(x.description||"Aucune description disponible.")}</p>
     ${x.creator ? `<p><b>Créateur :</b> ${esc(x.creator)}</p>` : ""}
-    ${x.updatedAt ? `<p><b>Dernière mise à jour :</b> ${date(x.updatedAt)}</p>` : ""}
-    ${x.url ? `<p><b><a href="${safeUrl(x.url)}" target="_blank" rel="noopener" style="color: #4c97ff;">Visiter l'extension →</a></b></p>` : ""}
+    ${x.updatedAt ? `<p><b>Mise à jour :</b> ${date(x.updatedAt)}</p>` : ""}
+    ${x.url ? `<p><a href="${safeUrl(x.url)}" target="_blank" rel="noopener">Visiter l'extension →</a></p>` : ""}
   `;
   $("details").showModal();
 }
@@ -98,7 +84,6 @@ function showDetails(x){
 async function copyUrl(u){
   await navigator.clipboard.writeText(u);
   $("status").textContent="URL copiée ✓";
-  $("status").style.color = "#4db84d";
   setTimeout(()=>loadCatalog(),1200);
 }
 
