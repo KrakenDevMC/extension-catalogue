@@ -9,29 +9,44 @@
 </head>
 <body>
   <header class="topbar">
-    <a class="brand" href="#"><span>◆</span> Extension Hub</a>
-    <div class="status" id="status">Synchronisation…</div>
+    <div class="topbar-left">
+      <a class="brand" href="#">
+        <svg class="logo" width="32" height="32" viewBox="0 0 32 32">
+          <rect x="2" y="2" width="12" height="12" fill="currentColor"/>
+          <rect x="18" y="2" width="12" height="12" fill="currentColor"/>
+          <rect x="2" y="18" width="12" height="12" fill="currentColor"/>
+          <rect x="18" y="18" width="12" height="12" fill="currentColor"/>
+        </svg>
+        Extension Hub
+      </a>
+    </div>
+    <div class="topbar-right">
+      <div class="status" id="status">Synchronisation…</div>
+      <button id="refresh" class="refresh-btn" title="Actualiser">↻</button>
+    </div>
   </header>
 
   <main>
     <section class="hero">
-      <div>
-        <p class="eyebrow">EXTENSIONS POUR SCRATCH MODS</p>
-        <h1>Toutes tes extensions,<br><em>au même endroit.</em></h1>
-        <p class="lead">TurboWarp, PenguinMod, SharkPool, Mistium et d'autres collections, avec un catalogue mis à jour automatiquement.</p>
+      <div class="hero-content">
+        <h1>Extensions pour Scratch</h1>
+        <p>Découvre et utilise les meilleures extensions TurboWarp, PenguinMod, SharkPool, Mistium et plus.</p>
       </div>
       <div class="stats" id="stats"></div>
     </section>
 
     <section class="toolbar">
       <input id="search" type="search" placeholder="Rechercher une extension…" autocomplete="off">
-      <select id="source">
-        <option value="">Toutes les sources</option>
-      </select>
-      <select id="category">
-        <option value="">Toutes les catégories</option>
-      </select>
-      <button id="refresh">↻ Actualiser</button>
+      <div class="select-group">
+        <select id="source">
+          <option value="">Toutes les sources</option>
+        </select>
+      </div>
+      <div class="select-group">
+        <select id="category">
+          <option value="">Toutes les catégories</option>
+        </select>
+      </div>
     </section>
 
     <section class="meta-row">
@@ -43,9 +58,11 @@
     <p class="empty" id="empty" hidden>Aucune extension ne correspond à ta recherche.</p>
   </main>
 
-  <dialog id="details">
-    <button class="close" id="close">×</button>
-    <div id="detailsContent"></div>
+  <dialog id="details" class="details-modal">
+    <div class="details-wrapper">
+      <button class="close" id="close">×</button>
+      <div id="detailsContent"></div>
+    </div>
   </dialog>
 
   <script src="app.js"></script>
