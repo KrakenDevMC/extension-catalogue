@@ -1,28 +1,16 @@
 {
-  "generatedAt": "2026-10-01T15:12:35.580Z",
+  "generatedAt": "2026-10-01T15:15:15.616Z",
   "extensions": [
     {
-      "id": "turbowarp:CubesterYT/Webhooks",
-      "name": "));\n        if (name === null) {\n          return;\n        }\n        if (name ===",
+      "id": "turbowarp:gamejolt",
+      "name": "[Game Jolt API]",
       "description": "Extension de la galerie TurboWarp.",
-      "creator": "CubesterYT",
+      "creator": "TurboWarp",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "game"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CubesterYT/Webhooks.js",
-      "url": "https://extensions.turbowarp.org/"
-    },
-    {
-      "id": "turbowarp:SharkPool/Messages-Plus",
-      "name": "${name} (clone)",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "SharkPool",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Messages-Plus.js",
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/gamejolt.js",
       "url": "https://extensions.turbowarp.org/"
     },
     {
@@ -97,6 +85,18 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/ar.js",
+      "url": "https://extensions.turbowarp.org/"
+    },
+    {
+      "id": "turbowarp:CST1229/zip",
+      "name": "archive",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "CST1229",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CST1229/zip.js",
       "url": "https://extensions.turbowarp.org/"
     },
     {
@@ -292,6 +292,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/pooiod/Box2D.js",
       "url": "https://extensions.penguinmod.com/"
+    },
+    {
+      "id": "turbowarp:Lily/MoreEvents",
+      "name": "BROADCAST_OPTION",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "Lily",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/MoreEvents.js",
+      "url": "https://extensions.turbowarp.org/"
+    },
+    {
+      "id": "turbowarp:SharkPool/Messages-Plus",
+      "name": "BROADCAST_OPTION",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "SharkPool",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Messages-Plus.js",
+      "url": "https://extensions.turbowarp.org/"
     },
     {
       "id": "turbowarp:veggiecan/browserfullscreen",
@@ -583,18 +607,6 @@
       "url": "https://extensions.turbowarp.org/"
     },
     {
-      "id": "turbowarp:TheShovel/CustomStyles",
-      "name": "CustomStyles",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TheShovel",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/CustomStyles.js",
-      "url": "https://extensions.turbowarp.org/"
-    },
-    {
       "id": "turbowarp:qxsck/data-analysis",
       "name": "data analysis",
       "description": "Extension de la galerie TurboWarp.",
@@ -860,18 +872,6 @@
       "url": "https://extensions.penguinmod.com/"
     },
     {
-      "id": "turbowarp:gamejolt",
-      "name": "Game Jolt API",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "game"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/gamejolt.js",
-      "url": "https://extensions.turbowarp.org/"
-    },
-    {
       "id": "turbowarp:gamepad",
       "name": "gamepad",
       "description": "Extension de la galerie TurboWarp.",
@@ -930,18 +930,6 @@
         "graphics"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NOname-awa/graphics2d.js",
-      "url": "https://extensions.turbowarp.org/"
-    },
-    {
-      "id": "turbowarp:Lily/HackedBlocks",
-      "name": "HackedBlocks",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "Lily",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/HackedBlocks.js",
       "url": "https://extensions.turbowarp.org/"
     },
     {
@@ -1255,18 +1243,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/VeryGoodScratcher42/More-Types.js",
       "url": "https://extensions.penguinmod.com/"
-    },
-    {
-      "id": "turbowarp:Lily/MoreEvents",
-      "name": "MoreEvents",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "Lily",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/MoreEvents.js",
-      "url": "https://extensions.turbowarp.org/"
     },
     {
       "id": "turbowarp:NexusKitten/moremotion",
@@ -1632,18 +1608,6 @@
       "url": "https://extensions.turbowarp.org/"
     },
     {
-      "id": "turbowarp:runtime-options",
-      "name": "runtime options",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/runtime-options.js",
-      "url": "https://extensions.turbowarp.org/"
-    },
-    {
       "id": "turbowarp:0832/rxFS2",
       "name": "rxFS",
       "description": "Extension de la galerie TurboWarp.",
@@ -1752,6 +1716,18 @@
       "url": "https://extensions.penguinmod.com/"
     },
     {
+      "id": "turbowarp:TheShovel/CustomStyles",
+      "name": "shovelcss-style",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "TheShovel",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/CustomStyles.js",
+      "url": "https://extensions.turbowarp.org/"
+    },
+    {
       "id": "turbowarp:TheShovel/ShovelUtils",
       "name": "ShovelUtils",
       "description": "Extension de la galerie TurboWarp.",
@@ -1765,7 +1741,7 @@
     },
     {
       "id": "turbowarp:Xeltalliv/simple3D",
-      "name": "Simple 3D",
+      "name": "Simple3D Layer",
       "description": "Extension de la galerie TurboWarp.",
       "creator": "Xeltalliv",
       "source": "TurboWarp",
@@ -1932,6 +1908,18 @@
       "url": "https://extensions.penguinmod.com/"
     },
     {
+      "id": "turbowarp:Lily/HackedBlocks",
+      "name": "TOUCHINGOBJECTMENU",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "Lily",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/HackedBlocks.js",
+      "url": "https://extensions.turbowarp.org/"
+    },
+    {
       "id": "penguinmod:Embin/embintranslation.js",
       "name": "Translation Keys",
       "description": "Use translation keys in your projects for multi-language support",
@@ -1978,6 +1966,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/RubyDevs/turboweather.js",
       "url": "https://extensions.penguinmod.com/"
+    },
+    {
+      "id": "turbowarp:Lily/Video",
+      "name": "tw-extensions-lily-videos-container",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "Lily",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/Video.js",
+      "url": "https://extensions.turbowarp.org/"
     },
     {
       "id": "turbowarp:JeremyGamer13/tween",
@@ -2028,6 +2028,18 @@
       "url": "https://extensions.penguinmod.com/"
     },
     {
+      "id": "turbowarp:runtime-options",
+      "name": "username",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "TurboWarp",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/runtime-options.js",
+      "url": "https://extensions.turbowarp.org/"
+    },
+    {
       "id": "turbowarp:utilities",
       "name": "utilities",
       "description": "Extension de la galerie TurboWarp.",
@@ -2064,18 +2076,6 @@
       "url": "https://extensions.turbowarp.org/"
     },
     {
-      "id": "turbowarp:Lily/Video",
-      "name": "Video",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "Lily",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/Video.js",
-      "url": "https://extensions.turbowarp.org/"
-    },
-    {
       "id": "penguinmod:pooiod/VideoSharing.js",
       "name": "Video Sharing",
       "description": "Share your screen or camera to your projects!",
@@ -2109,6 +2109,18 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/DNin/wake-lock.js",
+      "url": "https://extensions.turbowarp.org/"
+    },
+    {
+      "id": "turbowarp:CubesterYT/Webhooks",
+      "name": "Webhooks",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "CubesterYT",
+      "source": "TurboWarp",
+      "tags": [
+        "web"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CubesterYT/Webhooks.js",
       "url": "https://extensions.turbowarp.org/"
     },
     {
@@ -2196,18 +2208,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/YetAnotherStringExtension.js",
       "url": "https://extensions.penguinmod.com/"
-    },
-    {
-      "id": "turbowarp:CST1229/zip",
-      "name": "zip",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "CST1229",
-      "source": "TurboWarp",
-      "tags": [
-        "files"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CST1229/zip.js",
-      "url": "https://extensions.turbowarp.org/"
     }
   ]
 }
