@@ -44,6 +44,7 @@ jobs:
           else
             git add data/catalog.json
             git commit -m "chore: sync extensions catalog"
+            git pull --rebase origin main
             git push
           fi
 
