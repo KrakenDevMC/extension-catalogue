@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:24:29.072Z",
+  "generatedAt": "2026-10-01T15:28:53.967Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -11,7 +11,7 @@
         "game"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/gamejolt.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:ObviousAlexC/3DMath.js",
@@ -21,10 +21,10 @@
       "source": "PenguinMod",
       "tags": [
         "graphics",
-        "utility"
+        "game"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/ObviousAlexC/3DMath.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/ObviousAlexC/3DMath.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Div/divVecQuat.js",
@@ -33,11 +33,10 @@
       "creator": "Div",
       "source": "PenguinMod",
       "tags": [
-        "graphics",
-        "utility"
+        "graphics"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Div/divVecQuat.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Div/divVecQuat.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Div/divAlgEffects.js",
@@ -48,8 +47,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Div/divAlgEffects.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Div/divAlgEffects.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Lily/AllMenus.js",
@@ -58,10 +57,11 @@
       "creator": "Lily",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "ui",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Lily/AllMenus.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Lily/AllMenus.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/AllMenus",
@@ -70,10 +70,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "ui"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/AllMenus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:ar",
@@ -85,7 +85,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/ar.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:CST1229/zip",
@@ -97,7 +97,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CST1229/zip.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:AndrewGaming587/agBuffer.js",
@@ -106,10 +106,10 @@
       "creator": "AndrewGaming587",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "data"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/AndrewGaming587/agBuffer.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/AndrewGaming587/agBuffer.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/Assets",
@@ -121,7 +121,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/Assets.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:MubiLop/authpenguin.js",
@@ -130,10 +130,11 @@
       "creator": "MubiLop",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MubiLop/authpenguin.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/authpenguin.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:true-fantom/base",
@@ -145,7 +146,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/base.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:battery",
@@ -157,7 +158,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/battery.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Gen1x/beat_sync.js",
@@ -166,10 +167,11 @@
       "creator": "Gen1x",
       "source": "PenguinMod",
       "tags": [
-        "audio"
+        "audio",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/beat_sync.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/beat_sync.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:DogeisCut/BeepBoxPlayer.js",
@@ -178,10 +180,10 @@
       "creator": "DogeisCut",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/BeepBoxPlayer.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/BeepBoxPlayer.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Gen1x/better_storage.js",
@@ -191,10 +193,11 @@
       "source": "PenguinMod",
       "tags": [
         "graphics",
-        "files"
+        "files",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/better_storage.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/better_storage.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:qxsck/big-decimal.js",
@@ -205,8 +208,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/qxsck/big-decimal.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/qxsck/big-decimal.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Skyhigh173/bigint",
@@ -218,7 +221,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Skyhigh173/bigint.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:bitwise",
@@ -230,7 +233,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/bitwise.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:electricfuzzball_pm/blackMold.js",
@@ -241,8 +244,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/electricfuzzball_pm/blackMold.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/electricfuzzball_pm/blackMold.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Faunks/Blobs.js",
@@ -251,10 +254,11 @@
       "creator": "Faunks",
       "source": "PenguinMod",
       "tags": [
-        "files"
+        "files",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Faunks/Blobs.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Faunks/Blobs.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:TheShovel/blockAI.js",
@@ -265,8 +269,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/TheShovel/blockAI.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/blockAI.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:box2d",
@@ -278,7 +282,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/box2d.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:pooiod/Box2D.js",
@@ -288,10 +292,11 @@
       "source": "PenguinMod",
       "tags": [
         "graphics",
-        "game"
+        "game",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/pooiod/Box2D.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/pooiod/Box2D.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/MoreEvents",
@@ -303,7 +308,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/MoreEvents.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:SharkPool/Messages-Plus",
@@ -315,7 +320,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Messages-Plus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:veggiecan/browserfullscreen",
@@ -324,10 +329,10 @@
       "creator": "veggiecan",
       "source": "TurboWarp",
       "tags": [
-        "web"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/veggiecan/browserfullscreen.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:DT/cameracontrols",
@@ -336,10 +341,10 @@
       "creator": "DT",
       "source": "TurboWarp",
       "tags": [
-        "input"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/DT/cameracontrols.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:TheShovel/CanvasEffects",
@@ -351,7 +356,7 @@
         "graphics"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/CanvasEffects.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/Cast",
@@ -363,7 +368,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/Cast.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Gen1x/CATS.js",
@@ -374,8 +379,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/CATS.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/CATS.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Gen1x/chess-ext.js",
@@ -384,10 +389,10 @@
       "creator": "Gen1x",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/chess-ext.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/chess-ext.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:clipboard",
@@ -399,7 +404,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/clipboard.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Xeltalliv/clippingblending",
@@ -411,7 +416,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Xeltalliv/clippingblending.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/ClonesPlus",
@@ -423,7 +428,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/ClonesPlus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:XmerOriginals/closecontrol",
@@ -435,7 +440,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/XmerOriginals/closecontrol.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:clouddata-ping",
@@ -444,10 +449,11 @@
       "creator": "TurboWarp",
       "source": "TurboWarp",
       "tags": [
-        "network"
+        "network",
+        "data"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/clouddata-ping.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:MikeDev101/cloudlink.js",
@@ -457,10 +463,10 @@
       "source": "PenguinMod",
       "tags": [
         "network",
-        "web"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MikeDev101/cloudlink.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MikeDev101/cloudlink.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:cloudlink",
@@ -472,7 +478,7 @@
         "network"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/cloudlink.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:bruhbeast-pixel/CockatielLocation.js",
@@ -483,8 +489,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/bruhbeast-pixel/CockatielLocation.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/bruhbeast-pixel/CockatielLocation.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Longboost/color_channels",
@@ -496,7 +502,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Longboost/color_channels.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:TheShovel/ColorPicker",
@@ -508,7 +514,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/ColorPicker.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/CommentBlocks",
@@ -520,7 +526,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/CommentBlocks.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:-SIPC-/consoles",
@@ -532,7 +538,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/-SIPC-/consoles.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:NexusKitten/controlcontrols",
@@ -544,7 +550,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NexusKitten/controlcontrols.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:NamelessCat/corsproxy.js",
@@ -553,10 +559,11 @@
       "creator": "NamelessCat",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/NamelessCat/corsproxy.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NamelessCat/corsproxy.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:MrRedstonia/counterplusplus.js",
@@ -565,10 +572,11 @@
       "creator": "MrRedstonia",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MrRedstonia/counterplusplus.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MrRedstonia/counterplusplus.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:true-fantom/couplers",
@@ -580,7 +588,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/couplers.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:gaimerI17/crypto.js",
@@ -591,8 +599,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/gaimerI17/crypto.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/gaimerI17/crypto.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:cursor",
@@ -604,7 +612,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/cursor.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:qxsck/data-analysis",
@@ -613,10 +621,10 @@
       "creator": "qxsck",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "data"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/qxsck/data-analysis.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:ddededodediamante/dateFormatV2.js",
@@ -627,8 +635,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/ddededodediamante/dateFormatV2.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/ddededodediamante/dateFormatV2.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:NishiOwO/dectalk",
@@ -640,7 +648,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NishiOwO/dectalk.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:SharkPool/Camera",
@@ -652,7 +660,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Camera.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:XeroName/Deltatime",
@@ -664,7 +672,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/XeroName/Deltatime.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:gaimerI17/DeviceMotion.js",
@@ -675,8 +683,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/gaimerI17/DeviceMotion.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/gaimerI17/DeviceMotion.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:pooiod/Dictation.js",
@@ -685,10 +693,10 @@
       "creator": "pooiod",
       "source": "PenguinMod",
       "tags": [
-        "web"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/pooiod/Dictation.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/pooiod/Dictation.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:vercte/dictionaries",
@@ -700,7 +708,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/vercte/dictionaries.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:NotHouse/DiscordAuth.js",
@@ -711,8 +719,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/NotHouse/DiscordAuth.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NotHouse/DiscordAuth.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:TheShovel/doodlerec.js",
@@ -723,8 +731,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/TheShovel/doodlerec.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/doodlerec.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:MikeDev101/e2ee.js",
@@ -733,10 +741,10 @@
       "creator": "MikeDev101",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MikeDev101/e2ee.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MikeDev101/e2ee.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:encoding",
@@ -745,10 +753,10 @@
       "creator": "TurboWarp",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/encoding.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:TheShovel/extexp.js",
@@ -757,10 +765,10 @@
       "creator": "TheShovel",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/TheShovel/extexp.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/extexp.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:steve0greatness/timers.js",
@@ -771,8 +779,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/steve0greatness/timers.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/steve0greatness/timers.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:lab/face-sensing",
@@ -784,7 +792,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/lab/face-sensing.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:fetch",
@@ -796,7 +804,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/fetch.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Codefoxy/cfupload.js",
@@ -806,10 +814,11 @@
       "source": "PenguinMod",
       "tags": [
         "network",
-        "files"
+        "files",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Codefoxy/cfupload.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Codefoxy/cfupload.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:files",
@@ -821,7 +830,7 @@
         "files"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/files.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:SharkPool/Font-Manager",
@@ -833,7 +842,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Font-Manager.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:DogeisCut/FormatNumbers.js",
@@ -844,8 +853,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/FormatNumbers.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/FormatNumbers.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:DogeisCut/FormatNumbers",
@@ -857,7 +866,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/DogeisCut/FormatNumbers.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:WAYLIVES/FreeServers.js",
@@ -868,8 +877,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/WAYLIVES/FreeServers.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/WAYLIVES/FreeServers.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:gamepad",
@@ -881,7 +890,7 @@
         "game"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/gamepad.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:SamuelLouf/Geolocation",
@@ -893,7 +902,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SamuelLouf/Geolocation.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:justablock/gitpenguin.js",
@@ -903,10 +912,11 @@
       "source": "PenguinMod",
       "tags": [
         "graphics",
-        "files"
+        "files",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/justablock/gitpenguin.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/justablock/gitpenguin.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Ikelene/googleAuthExtension.js",
@@ -917,8 +927,8 @@
       "tags": [
         "files"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Ikelene/googleAuthExtension.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Ikelene/googleAuthExtension.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:NOname-awa/graphics2d",
@@ -930,7 +940,7 @@
         "graphics"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NOname-awa/graphics2d.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Monochromasity/howmanylines.js",
@@ -941,8 +951,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Monochromasity/howmanylines.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Monochromasity/howmanylines.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Clay/htmlEncode",
@@ -951,10 +961,10 @@
       "creator": "Clay",
       "source": "TurboWarp",
       "tags": [
-        "web"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Clay/htmlEncode.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:godslayerakp/http",
@@ -966,7 +976,7 @@
         "network"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/godslayerakp/http.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:iframe",
@@ -975,10 +985,10 @@
       "creator": "TurboWarp",
       "source": "TurboWarp",
       "tags": [
-        "web"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/iframe.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:CST1229/images",
@@ -990,7 +1000,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CST1229/images.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Gen1x/iris-text.js",
@@ -1001,8 +1011,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/iris-text.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/iris-text.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:itchio",
@@ -1014,7 +1024,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/itchio.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Div/divIterators.js",
@@ -1025,8 +1035,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Div/divIterators.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Div/divIterators.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Skyhigh173/json",
@@ -1035,10 +1045,10 @@
       "creator": "Skyhigh173",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Skyhigh173/json.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:CubesterYT/KeySimulation",
@@ -1050,7 +1060,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CubesterYT/KeySimulation.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:NishiOwO/libxmp.js",
@@ -1061,8 +1071,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/NishiOwO/libxmp.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NishiOwO/libxmp.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Gen1x/lighting.js",
@@ -1071,10 +1081,10 @@
       "creator": "Gen1x",
       "source": "PenguinMod",
       "tags": [
-        "web"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/lighting.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/lighting.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/ListTools",
@@ -1083,10 +1093,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "data"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/ListTools.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/lmsutils",
@@ -1095,10 +1105,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/lmsutils.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:local-storage",
@@ -1110,7 +1120,7 @@
         "files"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/local-storage.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:veggiecan/LongmanDictionary",
@@ -1122,7 +1132,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/veggiecan/LongmanDictionary.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/LooksPlus",
@@ -1134,7 +1144,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/LooksPlus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:TheShovel/LZ-String",
@@ -1143,10 +1153,10 @@
       "creator": "TheShovel",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "data"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/LZ-String.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:true-fantom/math",
@@ -1155,10 +1165,10 @@
       "creator": "true-fantom",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/math.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:jwklong/mathematics.js",
@@ -1167,10 +1177,10 @@
       "creator": "jwklong",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/jwklong/mathematics.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/jwklong/mathematics.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/McUtils",
@@ -1179,10 +1189,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/McUtils.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:electricfuzzball_pm/MIDI.js",
@@ -1191,10 +1201,10 @@
       "creator": "electricfuzzball_pm",
       "source": "PenguinMod",
       "tags": [
-        "input"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/electricfuzzball_pm/MIDI.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/electricfuzzball_pm/MIDI.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:veggiecan/mobilekeyboard",
@@ -1203,10 +1213,10 @@
       "creator": "veggiecan",
       "source": "TurboWarp",
       "tags": [
-        "input"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/veggiecan/mobilekeyboard.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:NOname-awa/more-comparisons",
@@ -1218,7 +1228,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NOname-awa/more-comparisons.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Ashime/MoreFields.js",
@@ -1229,8 +1239,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Ashime/MoreFields.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Ashime/MoreFields.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:VeryGoodScratcher42/More-Types.js",
@@ -1239,10 +1249,11 @@
       "creator": "VeryGoodScratcher42",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/VeryGoodScratcher42/More-Types.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/VeryGoodScratcher42/More-Types.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:NexusKitten/moremotion",
@@ -1254,7 +1265,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NexusKitten/moremotion.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/MoreTimers",
@@ -1266,7 +1277,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/MoreTimers.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:TheShovel/qoan-renderer.js",
@@ -1275,10 +1286,10 @@
       "creator": "TheShovel",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "game"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/TheShovel/qoan-renderer.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/qoan-renderer.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Gen1x/mouth_washer.js",
@@ -1287,10 +1298,10 @@
       "creator": "Gen1x",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/mouth_washer.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/mouth_washer.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:navigator",
@@ -1302,7 +1313,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/navigator.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:true-fantom/network",
@@ -1314,7 +1325,7 @@
         "network"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/network.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Alestore/nfcwarp",
@@ -1326,7 +1337,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Alestore/nfcwarp.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:mdwalters/notifications",
@@ -1338,7 +1349,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/mdwalters/notifications.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:MubiLop/numutils.js",
@@ -1347,10 +1358,10 @@
       "creator": "MubiLop",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MubiLop/numutils.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/numutils.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:numerical-encoding-2",
@@ -1359,10 +1370,10 @@
       "creator": "TurboWarp",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/numerical-encoding-2.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:cs2627883/numericalencoding",
@@ -1371,10 +1382,10 @@
       "creator": "cs2627883",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/cs2627883/numericalencoding.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:skyhigh173/object.js",
@@ -1383,11 +1394,10 @@
       "creator": "skyhigh173",
       "source": "PenguinMod",
       "tags": [
-        "files",
-        "utility"
+        "files"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/skyhigh173/object.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/skyhigh173/object.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:NishiOwO/ode.js",
@@ -1399,8 +1409,8 @@
         "graphics",
         "game"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/NishiOwO/ode.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NishiOwO/ode.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:TheShovel/oneko.js",
@@ -1411,8 +1421,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/TheShovel/oneko.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/oneko.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:NotHouse/OnlineCaptcha.js",
@@ -1423,8 +1433,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/NotHouse/OnlineCaptcha.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NotHouse/OnlineCaptcha.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Fruits555000/PaintUtils.js",
@@ -1433,10 +1443,10 @@
       "creator": "Fruits555000",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Fruits555000/PaintUtils.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Fruits555000/PaintUtils.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:SammerLOL/pangapi.js",
@@ -1445,10 +1455,11 @@
       "creator": "SammerLOL",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/SammerLOL/pangapi.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/SammerLOL/pangapi.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:ObviousAlexC/PenPlus.js",
@@ -1459,8 +1470,8 @@
       "tags": [
         "graphics"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/ObviousAlexC/PenPlus.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/ObviousAlexC/PenPlus.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:MubiLop/penguingpt.js",
@@ -1469,10 +1480,11 @@
       "creator": "MubiLop",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MubiLop/penguingpt.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/penguingpt.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:MubiLop/penguinhook.js",
@@ -1482,10 +1494,10 @@
       "source": "PenguinMod",
       "tags": [
         "graphics",
-        "web"
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MubiLop/penguinhook.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/penguinhook.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:penplus",
@@ -1497,7 +1509,7 @@
         "graphics"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/penplus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:obviousAlexC/penPlus",
@@ -1509,7 +1521,7 @@
         "graphics"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/obviousAlexC/penPlus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:pointerlock",
@@ -1521,7 +1533,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/pointerlock.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:LordCat0/ProjectInterfaces.js",
@@ -1530,10 +1542,10 @@
       "creator": "LordCat0",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/LordCat0/ProjectInterfaces.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/LordCat0/ProjectInterfaces.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:Gen1x/random_utils.js",
@@ -1542,10 +1554,11 @@
       "creator": "Gen1x",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "ui",
+        "data"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/random_utils.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/random_utils.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:true-fantom/regexp",
@@ -1557,7 +1570,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/regexp.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:DogeisCut/dogeiscutRegularExpressions.js",
@@ -1568,8 +1581,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/dogeiscutRegularExpressions.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/dogeiscutRegularExpressions.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:shreder95ua/resolution",
@@ -1581,7 +1594,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/shreder95ua/resolution.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:DogeisCut/Resolution.js",
@@ -1590,10 +1603,10 @@
       "creator": "DogeisCut",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/Resolution.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/Resolution.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:rixxyx",
@@ -1605,7 +1618,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/rixxyx.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:0832/rxFS2",
@@ -1617,7 +1630,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/0832/rxFS2.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:0znzw/ScopeVars.js",
@@ -1626,10 +1639,10 @@
       "creator": "0znzw",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "data"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/0znzw/ScopeVars.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/0znzw/ScopeVars.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:pooiod/Scratchblocks.js",
@@ -1640,8 +1653,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/pooiod/Scratchblocks.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/pooiod/Scratchblocks.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:ZXMushroom63/searchApi",
@@ -1653,7 +1666,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/ZXMushroom63/searchApi.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:obviousAlexC/SensingPlus",
@@ -1665,7 +1678,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/obviousAlexC/SensingPlus.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Ikelene/serverStorageExtension.js",
@@ -1676,8 +1689,8 @@
       "tags": [
         "files"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Ikelene/serverStorageExtension.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Ikelene/serverStorageExtension.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:DogeisCut/dogeiscutSet.js",
@@ -1686,10 +1699,10 @@
       "creator": "DogeisCut",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "data"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/dogeiscutSet.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/dogeiscutSet.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:NexusKitten/sgrab",
@@ -1701,7 +1714,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NexusKitten/sgrab.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:TheShovel/shoveldebugger.js",
@@ -1712,8 +1725,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/TheShovel/shoveldebugger.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/shoveldebugger.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:TheShovel/CustomStyles",
@@ -1725,7 +1738,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/CustomStyles.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:TheShovel/ShovelUtils",
@@ -1734,10 +1747,10 @@
       "creator": "TheShovel",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/ShovelUtils.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Xeltalliv/simple3D",
@@ -1749,7 +1762,7 @@
         "graphics"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Xeltalliv/simple3D.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/Skins",
@@ -1761,7 +1774,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/Skins.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:electricfuzzball_pm/firealarm.js",
@@ -1772,8 +1785,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/electricfuzzball_pm/firealarm.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/electricfuzzball_pm/firealarm.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/SoundExpanded",
@@ -1785,7 +1798,7 @@
         "audio"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/SoundExpanded.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:electricfuzzball_pm/StageBrah.js",
@@ -1796,8 +1809,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/electricfuzzball_pm/StageBrah.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/electricfuzzball_pm/StageBrah.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:steamworks",
@@ -1809,7 +1822,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/steamworks.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Gen1x/storage_plus.js",
@@ -1818,10 +1831,11 @@
       "creator": "Gen1x",
       "source": "PenguinMod",
       "tags": [
-        "files"
+        "files",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Gen1x/storage_plus.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/storage_plus.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:stretch",
@@ -1833,7 +1847,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/stretch.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:Lily/TempVariables2",
@@ -1842,10 +1856,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "data"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/TempVariables2.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:lab/text",
@@ -1857,7 +1871,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/lab/text.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:text",
@@ -1869,7 +1883,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/text.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:PuzzlingGGG/ttsrV2.js",
@@ -1878,10 +1892,11 @@
       "creator": "PuzzlingGGG",
       "source": "PenguinMod",
       "tags": [
-        "audio"
+        "audio",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/PuzzlingGGG/ttsrV2.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/PuzzlingGGG/ttsrV2.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:-SIPC-/time",
@@ -1893,7 +1908,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/-SIPC-/time.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:MubiLop/toastnotifs.js",
@@ -1902,10 +1917,10 @@
       "creator": "MubiLop",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MubiLop/toastnotifs.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/toastnotifs.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/HackedBlocks",
@@ -1914,10 +1929,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "ui"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/HackedBlocks.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Embin/embintranslation.js",
@@ -1928,8 +1943,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Embin/embintranslation.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Embin/embintranslation.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:SharkPool/Tune-Shark-V3",
@@ -1941,7 +1956,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Tune-Shark-V3.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:NishiOwO/turbosynth.js",
@@ -1952,8 +1967,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/NishiOwO/turbosynth.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NishiOwO/turbosynth.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:RubyDevs/turboweather.js",
@@ -1962,10 +1977,10 @@
       "creator": "RubyDevs",
       "source": "PenguinMod",
       "tags": [
-        "other"
+        "data"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/RubyDevs/turboweather.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/RubyDevs/turboweather.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/Video",
@@ -1974,10 +1989,10 @@
       "creator": "Lily",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "extension"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/Video.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:JeremyGamer13/tween",
@@ -1989,7 +2004,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/JeremyGamer13/tween.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:bop_tw/Twitch.js",
@@ -1998,10 +2013,11 @@
       "creator": "bop_tw",
       "source": "PenguinMod",
       "tags": [
-        "graphics"
+        "graphics",
+        "ui"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/bop_tw/Twitch.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/bop_tw/Twitch.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:obviousAlexC/newgroundsIO",
@@ -2013,7 +2029,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/obviousAlexC/newgroundsIO.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:Anonymous_cat1/updateFile.js",
@@ -2022,10 +2038,11 @@
       "creator": "Anonymous_cat1",
       "source": "PenguinMod",
       "tags": [
-        "files"
+        "files",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/Anonymous_cat1/updateFile.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Anonymous_cat1/updateFile.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:runtime-options",
@@ -2037,7 +2054,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/runtime-options.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:utilities",
@@ -2046,10 +2063,10 @@
       "creator": "TurboWarp",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/utilities.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:qxsck/var-and-list",
@@ -2058,10 +2075,10 @@
       "creator": "qxsck",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "data"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/qxsck/var-and-list.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:PwLDev/vibration",
@@ -2073,7 +2090,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/PwLDev/vibration.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:pooiod/VideoSharing.js",
@@ -2082,10 +2099,10 @@
       "creator": "pooiod",
       "source": "PenguinMod",
       "tags": [
-        "input"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/pooiod/VideoSharing.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/pooiod/VideoSharing.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:lab/video-sprites",
@@ -2094,10 +2111,10 @@
       "creator": "lab",
       "source": "TurboWarp",
       "tags": [
-        "other"
+        "game"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/lab/video-sprites.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:DNin/wake-lock",
@@ -2109,7 +2126,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/DNin/wake-lock.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:CubesterYT/Webhooks",
@@ -2118,10 +2135,10 @@
       "creator": "CubesterYT",
       "source": "TurboWarp",
       "tags": [
-        "web"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CubesterYT/Webhooks.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:MikeDev101/webrtc.js",
@@ -2130,10 +2147,10 @@
       "creator": "MikeDev101",
       "source": "PenguinMod",
       "tags": [
-        "web"
+        "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MikeDev101/webrtc.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MikeDev101/webrtc.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:godslayerakp/ws",
@@ -2142,11 +2159,10 @@
       "creator": "godslayerakp",
       "source": "TurboWarp",
       "tags": [
-        "network",
-        "web"
+        "network"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/godslayerakp/ws.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:CubesterYT/WindowControls",
@@ -2158,7 +2174,7 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CubesterYT/WindowControls.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:pooiod/WindowHasher.js",
@@ -2169,8 +2185,8 @@
       "tags": [
         "other"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/pooiod/WindowHasher.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/pooiod/WindowHasher.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:mbw/xml",
@@ -2179,10 +2195,10 @@
       "creator": "mbw",
       "source": "TurboWarp",
       "tags": [
-        "utility"
+        "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/mbw/xml.js",
-      "url": "https://extensions.turbowarp.org/"
+      "url": "https://turbowarp.org"
     },
     {
       "id": "penguinmod:MubiLop/yeetyourfiles.js",
@@ -2194,8 +2210,8 @@
         "network",
         "files"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/MubiLop/yeetyourfiles.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/yeetyourfiles.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:DogeisCut/YetAnotherStringExtension.js",
@@ -2204,10 +2220,11 @@
       "creator": "DogeisCut",
       "source": "PenguinMod",
       "tags": [
-        "utility"
+        "data",
+        "extension"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/DogeisCut/YetAnotherStringExtension.js",
-      "url": "https://extensions.penguinmod.com/"
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/YetAnotherStringExtension.js",
+      "url": "https://penguinmod.com"
     }
   ]
 }
