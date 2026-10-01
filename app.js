@@ -11,11 +11,12 @@ async function loadCatalog(force=false) {
     state.all = Array.isArray(data.extensions) ? data.extensions : [];
     populateFilters();
     render();
-    $("updated").textContent = data.generatedAt ? `Catalogue généré ${new Date(data.generatedAt).toLocaleString("fr-FR")}` : "";
-    $("status").textContent = "● Catalogue à jour";
-    $("status").style.color = "#67e8f9";
+    $("updated").textContent = data.generatedAt ? `Mis à jour ${new Date(data.generatedAt).toLocaleString("fr-FR")}` : "";
+    $("status").textContent = "● À jour";
+    $("status").style.color = "#4db84d";
   } catch (e) {
-    $("status").textContent = "Catalogue indisponible";
+    $("status").textContent = "Erreur de synchronisation";
+    $("status").style.color = "#ff6680";
     console.error(e);
   }
 }
@@ -38,30 +39,78 @@ function render(){
   $("empty").hidden=state.filtered.length!==0;
   $("grid").innerHTML=state.filtered.map(card).join("");
 }
-function card(x){
-  const tags=(x.tags||[]).slice(0,5).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
+
+function getCardGradient(index) {
+  const gradients = [
+    "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+    "linear-gradient(135deg, #f093fb 0%, #f5576c 100%)",
+    "linear-gradient(135deg, #4facfe 0%, #00f2fe 100%)",
+    "linear-gradient(135deg, #43e97b 0%, #38f9d7 100%)",
+    "linear-gradient(135deg, #fa709a 0%, #fee140 100%)",
+    "linear-gradient(135deg, #30cfd0 0%, #330867 100%)"
+  ];
+  return gradients[index % gradients.length];
+}
+
+function card(x, index){
+  const tags=(x.tags||[]).slice(0,3).map(t=>`<span class="tag">${esc(t)}</span>`).join("");
+  const imageHtml = x.image ? 
+    `<img src="${safeUrl(x.image)}" alt="${esc(x.name||'Extension')}" onerror="this.style.display='none'">` :
+    `<div class="card-image-placeholder">🧩</div>`;
+  
   return `<article class="card">
-    <div class="card-top"><span class="badge source">${esc(x.source||"Autre")}</span>${x.updatedAt?`<span class="badge">${date(x.updatedAt)}</span>`:""}</div>
-    <h3>${esc(x.name||x.id||"Extension")}</h3>
-    <div class="desc">${esc(x.description||"Extension communautaire.")}</div>
-    <div class="tags">${tags}</div>
-    <div class="actions">
-      ${x.url?`<a class="primary" href="${safeUrl(x.url)}" target="_blank" rel="noopener">Ouvrir</a>`:""}
-      ${x.codeUrl?`<button onclick="copyUrl('${attr(x.codeUrl)}')">Copier URL</button>`:""}
-      <button onclick='showDetails(${JSON.stringify(x).replace(/'/g,"&#39;")})'>Détails</button>
+    <div class="card-image" style="${x.image ? '' : `background: ${getCardGradient(index)};`}">
+      ${imageHtml}
+    </div>
+    <div class="card-content">
+      <div class="card-header">
+        <h3>${esc(x.name||x.id||"Extension")}</h3>
+        <span class="badge source">${esc(x.source||"Autre")}</span>
+      </div>
+      <div class="desc">${esc(x.description||"Extension communautaire.")}</div>
+      <div class="tags">${tags}</div>
+      <div class="actions">
+        ${x.url?`<a class="primary" href="${safeUrl(x.url)}" target="_blank" rel="noopener">Ouvrir</a>`:""}
+        ${x.codeUrl?`<button onclick="copyUrl('${attr(x.codeUrl)}')">Copier URL</button>`:""}
+        <button onclick='showDetails(${JSON.stringify(x).replace(/'/g,"&#39;")})'>Détails</button>
+      </div>
     </div>
   </article>`;
 }
+
 function showDetails(x){
-  $("detailsContent").innerHTML=`<p class="details-source">${esc(x.source||"Autre")}</p><h2>${esc(x.name||x.id)}</h2><p>${esc(x.description||"Aucune description disponible.")}</p><p><b>Créateur :</b> ${esc(x.creator||"Inconnu")}</p><p><b>Catégories :</b> ${esc((x.tags||[]).join(", ")||"Non renseignées")}</p>${x.codeUrl?`<p><a href="${safeUrl(x.codeUrl)}" target="_blank" rel="noopener">Voir le code de l’extension</a></p>`:""}`;
+  const imageHtml = x.image ?
+    `<div style="width: 100%; height: 200px; border-radius: 8px; margin-bottom: 16px; overflow: hidden; border: 2px solid #e0e0e0;"><img src="${safeUrl(x.image)}" alt="${esc(x.name||'Extension')}" style="width: 100%; height: 100%; object-fit: cover;"></div>` :
+    "";
+  
+  $("detailsContent").innerHTML=`
+    ${imageHtml}
+    <p class="details-source">${esc(x.source||"Autre")}</p>
+    <h2>${esc(x.name||x.id)}</h2>
+    <p>${esc(x.description||"Aucune description disponible.")}</p>
+    ${x.creator ? `<p><b>Créateur :</b> ${esc(x.creator)}</p>` : ""}
+    ${x.updatedAt ? `<p><b>Dernière mise à jour :</b> ${date(x.updatedAt)}</p>` : ""}
+    ${x.url ? `<p><b><a href="${safeUrl(x.url)}" target="_blank" rel="noopener" style="color: #4c97ff;">Visiter l'extension →</a></b></p>` : ""}
+  `;
   $("details").showModal();
 }
-async function copyUrl(u){await navigator.clipboard.writeText(u); $("status").textContent="URL copiée ✓";setTimeout(()=>loadCatalog(),1200)}
+
+async function copyUrl(u){
+  await navigator.clipboard.writeText(u);
+  $("status").textContent="URL copiée ✓";
+  $("status").style.color = "#4db84d";
+  setTimeout(()=>loadCatalog(),1200);
+}
+
 function date(v){try{return new Date(v).toLocaleDateString("fr-FR")}catch{return ""}}
 function esc(s){return String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]))}
 function attr(s){return String(s).replace(/\\/g,"\\\\").replace(/'/g,"\\'")}
 function safeUrl(s){try{const u=new URL(s);return /^https?:$/.test(u.protocol)?u.href:"#"}catch{return "#"}}
 
-$("search").addEventListener("input",render); $("source").addEventListener("change",render); $("category").addEventListener("change",render);
-$("refresh").addEventListener("click",()=>loadCatalog(true)); $("close").addEventListener("click",()=>$("details").close());
+$("search").addEventListener("input",render);
+$("source").addEventListener("change",render);
+$("category").addEventListener("change",render);
+$("refresh").addEventListener("click",()=>loadCatalog(true));
+$("close").addEventListener("click",()=>$("details").close());
+
 loadCatalog();
