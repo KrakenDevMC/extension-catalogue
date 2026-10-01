@@ -20,7 +20,8 @@ async function raw(url) {
 function strip(v){ return String(v ?? "").replace(/^["'`]|["'`]$/g,"").trim(); }
 function pick(src, key) {
   const re = new RegExp(`${key}\\s*:\\s*["'\`]([^"'\`]+)["'\`]`);
-  return src.match(re)?.[1] || "";
+  const match = src.match(re)?.[1] || "";
+  return match.trim();
 }
 function tags(name, desc="") {
   const s=(name+" "+desc).toLowerCase();
@@ -36,7 +37,8 @@ async function turboWarp() {
   return (await Promise.all(paths.map(async p=>{
     try {
       const code=await raw(`${RAW}/TurboWarp/extensions/master/extensions/${p}.js`);
-      const name=pick(code,"name") || p.split("/").pop().replace(/[-_]/g," ");
+      let name=pick(code,"name");
+      if (!name) name = p.split("/").pop().replace(/[-_]/g," ");
       const creator=p.includes("/")?p.split("/")[0]:"TurboWarp";
       return {id:`turbowarp:${p}`,name,description:"Extension de la galerie TurboWarp.",creator,source:"TurboWarp",tags:tags(name),codeUrl:`${RAW}/TurboWarp/extensions/master/extensions/${p}.js`,url:`https://extensions.turbowarp.org/`};
     } catch { return null; }
@@ -49,6 +51,7 @@ async function penguinMod() {
   const re=/name:\s*["'`]([^"'`]+)["'`][\s\S]{0,900}?description:\s*["'`]([^"'`]*)["'`][\s\S]{0,900}?code:\s*["'`]([^"'`]+)["'`]/g;
   for(const m of code.matchAll(re)){
     const [,name,description,codePath]=m;
+    if (!name) continue;
     const creator=codePath.split("/")[0];
     out.push({id:`penguinmod:${codePath}`,name,description,creator,source:"PenguinMod",tags:tags(name,description),codeUrl:`${RAW}/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/${codePath}`,url:"https://extensions.penguinmod.com/"});
   }
@@ -66,7 +69,8 @@ async function sharkPool() {
   return (await Promise.all(js.map(async p=>{
     try {
       const code=await raw(`${RAW}/SharkPool-SP/SharkPools-Extensions/master/${p}`);
-      const name=pick(code,"name") || p.split("/").pop().replace(/\.js$/,"");
+      let name=pick(code,"name");
+      if (!name) name = p.split("/").pop().replace(/\.js$/,"");
       const desc=pick(code,"description");
       return {id:`sharkpool:${p}`,name,description:desc||"Extension de la collection SharkPool.",creator:"SharkPool / communauté",source:"SharkPool",tags:tags(name,desc),codeUrl:`${RAW}/SharkPool-SP/SharkPools-Extensions/master/${p}`,url:"https://sharkpools-extensions.vercel.app/"};
     } catch { return null; }
@@ -79,7 +83,8 @@ async function mistium() {
   return (await Promise.all(js.map(async p=>{
     try {
       const code=await raw(`${RAW}/Mistium/extensions.mistium/master/${p}`);
-      const name=pick(code,"name") || p.split("/").pop().replace(/\.js$/,"").replace(/[-_]/g," ");
+      let name=pick(code,"name");
+      if (!name) name = p.split("/").pop().replace(/\.js$/,"").replace(/[-_]/g," ");
       const desc=pick(code,"description");
       return {id:`mistium:${p}`,name,description:desc||"Extension de Mistium.",creator:"Mistium",source:"Mistium",tags:tags(name,desc),codeUrl:`${RAW}/Mistium/extensions.mistium/master/${p}`,url:"https://extensions.mistium.com/"};
     } catch { return null; }
