@@ -7,6 +7,25 @@ const headers = {
   "User-Agent": "Extension-Hub-Sync/1.0"
 };
 
+function looksLikeCodeName(value) {
+  if (typeof value !== "string") return true;
+  const name = value.replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
+  if (!name || name.length > 120) return true;
+  if (/[{};]/.test(name)) return true;
+  if (/\$\{/.test(name)) return true;
+  if (/\bif\s*\(/i.test(name)) return true;
+  if (/\breturn\b/i.test(name)) return true;
+  if (/===|==/.test(name)) return true;
+  if (/\bname\b\s*(===|==)/i.test(name)) return true;
+  return false;
+}
+
+function sanitizeName(value) {
+  const raw = String(value ?? "").replace(/\r?\n/g, " ").replace(/\s+/g, " ").trim();
+  if (!raw || looksLikeCodeName(raw)) return "";
+  return raw.replace(/^['"`]+|['"`]+$/g, "").trim();
+}
+
 async function get(url) {
   const r = await fetch(url, {headers});
   if (!r.ok) throw new Error(`${r.status} ${url}`);
@@ -17,11 +36,15 @@ async function raw(url) {
   if (!r.ok) throw new Error(`${r.status} ${url}`);
   return r.text();
 }
-function strip(v){ return String(v ?? "").replace(/^["'`]|["'`]$/g,"").trim(); }
+function strip(v){ return String(v ?? "").replace(/^['"`]|['"`]$/g,"").trim(); }
 function pick(src, key) {
-  const re = new RegExp(`${key}\\s*:\\s*["'\`]([^"'\`]+)["'\`]`);
-  const match = src.match(re)?.[1] || "";
-  return match.trim();
+  const re = new RegExp(`${key}\\s*(?::|=)\\s*['"\`]([^'"\`\\n]+)['"\`]`, "gi");
+  const matches = [...src.matchAll(re)];
+  for (const match of matches) {
+    const value = sanitizeName(match[1]);
+    if (value) return value;
+  }
+  return "";
 }
 function tags(name, desc="") {
   const s=(name+" "+desc).toLowerCase();
@@ -37,8 +60,10 @@ async function turboWarp() {
   return (await Promise.all(paths.map(async p=>{
     try {
       const code=await raw(`${RAW}/TurboWarp/extensions/master/extensions/${p}.js`);
-      let name=pick(code,"name");
+      let name = pick(code,"name");
       if (!name) name = p.split("/").pop().replace(/[-_]/g," ");
+      name = sanitizeName(name);
+      if (!name) return null;
       const creator=p.includes("/")?p.split("/")[0]:"TurboWarp";
       return {id:`turbowarp:${p}`,name,description:"Extension de la galerie TurboWarp.",creator,source:"TurboWarp",tags:tags(name),codeUrl:`${RAW}/TurboWarp/extensions/master/extensions/${p}.js`,url:`https://extensions.turbowarp.org/`};
     } catch { return null; }
@@ -51,9 +76,10 @@ async function penguinMod() {
   const re=/name:\s*["'`]([^"'`]+)["'`][\s\S]{0,900}?description:\s*["'`]([^"'`]*)["'`][\s\S]{0,900}?code:\s*["'`]([^"'`]+)["'`]/g;
   for(const m of code.matchAll(re)){
     const [,name,description,codePath]=m;
-    if (!name) continue;
+    const cleanName = sanitizeName(name);
+    if (!cleanName) continue;
     const creator=codePath.split("/")[0];
-    out.push({id:`penguinmod:${codePath}`,name,description,creator,source:"PenguinMod",tags:tags(name,description),codeUrl:`${RAW}/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/${codePath}`,url:"https://extensions.penguinmod.com/"});
+    out.push({id:`penguinmod:${codePath}`,name:cleanName,description,creator,source:"PenguinMod",tags:tags(cleanName,description),codeUrl:`${RAW}/PenguinMod/PenguinMod-ExtensionsGallery/main/static/extensions/${codePath}`,url:"https://extensions.penguinmod.com/"});
   }
   return out;
 }
@@ -69,8 +95,10 @@ async function sharkPool() {
   return (await Promise.all(js.map(async p=>{
     try {
       const code=await raw(`${RAW}/SharkPool-SP/SharkPools-Extensions/master/${p}`);
-      let name=pick(code,"name");
+      let name = pick(code,"name");
       if (!name) name = p.split("/").pop().replace(/\.js$/,"");
+      name = sanitizeName(name);
+      if (!name) return null;
       const desc=pick(code,"description");
       return {id:`sharkpool:${p}`,name,description:desc||"Extension de la collection SharkPool.",creator:"SharkPool / communauté",source:"SharkPool",tags:tags(name,desc),codeUrl:`${RAW}/SharkPool-SP/SharkPools-Extensions/master/${p}`,url:"https://sharkpools-extensions.vercel.app/"};
     } catch { return null; }
@@ -83,8 +111,10 @@ async function mistium() {
   return (await Promise.all(js.map(async p=>{
     try {
       const code=await raw(`${RAW}/Mistium/extensions.mistium/master/${p}`);
-      let name=pick(code,"name");
+      let name = pick(code,"name");
       if (!name) name = p.split("/").pop().replace(/\.js$/,"").replace(/[-_]/g," ");
+      name = sanitizeName(name);
+      if (!name) return null;
       const desc=pick(code,"description");
       return {id:`mistium:${p}`,name,description:desc||"Extension de Mistium.",creator:"Mistium",source:"Mistium",tags:tags(name,desc),codeUrl:`${RAW}/Mistium/extensions.mistium/master/${p}`,url:"https://extensions.mistium.com/"};
     } catch { return null; }
@@ -96,7 +126,10 @@ for (const fn of [turboWarp,penguinMod,sharkPool,mistium]) {
   try { const x=await fn(); results.push(...x); console.log(`OK ${fn.name}: ${x.length}`); }
   catch(e){ console.error(`Source ${fn.name} ignorée:`,e.message); }
 }
-const seen=new Set(), extensions=results.filter(x=>!seen.has(x.id)&&seen.add(x.id)).sort((a,b)=>a.name.localeCompare(b.name));
+const seen=new Set(), extensions=results
+  .filter(x => x && x.name && !looksLikeCodeName(x.name))
+  .filter(x=>!seen.has(x.id)&&seen.add(x.id))
+  .sort((a,b)=>a.name.localeCompare(b.name));
 await fs.mkdir("data",{recursive:true});
 await fs.writeFile("data/catalog.json",JSON.stringify({generatedAt:new Date().toISOString(),extensions},null,2)+"\n");
 console.log(`Catalogue: ${extensions.length} extensions`);
