@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-01T15:42:45.129Z",
+  "generatedAt": "2026-10-01T15:48:15.281Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -39,6 +39,30 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Added-Motion.js",
+      "name": "Added Motion",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Added-Motion.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Advanced-Messages.js",
+      "name": "Advanced Messages",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Advanced-Messages.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:Div/divAlgEffects.js",
       "name": "Algebraic Effects",
       "description": "Intercept custom actions in your scripts to pause, resume, or redirect their flow using modular handlers.",
@@ -76,6 +100,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Animations.js",
+      "name": "Animations",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Animations.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:ar",
       "name": "AR: combined",
       "description": "Extension de la galerie TurboWarp.",
@@ -110,6 +146,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/AndrewGaming587/agBuffer.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/GIF-Manager.js",
+      "name": "AssertionError",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/GIF-Manager.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:Lily/Assets",
@@ -184,6 +232,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/BeepBoxPlayer.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/Better-Comments.js",
+      "name": "Better Comments",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Better-Comments.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:Gen1x/better_storage.js",
@@ -323,6 +383,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Messages-Plus.js",
+      "name": "BROADCAST_OPTION",
+      "description": "Used in context",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Messages-Plus.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:veggiecan/browserfullscreen",
       "name": "browserfullscreen",
       "description": "Extension de la galerie TurboWarp.",
@@ -333,6 +405,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/veggiecan/browserfullscreen.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Camera-Sensing-Plus.js",
+      "name": "Camera Sensing+",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Camera-Sensing-Plus.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:DT/cameracontrols",
@@ -357,6 +441,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/TheShovel/CanvasEffects.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Captchas.js",
+      "name": "Captchas",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Captchas.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:Lily/Cast",
@@ -505,6 +601,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Color-Master.js",
+      "name": "Color Master",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Color-Master.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:TheShovel/ColorPicker",
       "name": "ColorPicker",
       "description": "Extension de la galerie TurboWarp.",
@@ -517,6 +625,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/My-Blocks-Plus.js",
+      "name": "COLOUR",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/My-Blocks-Plus.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:Lily/CommentBlocks",
       "name": "CommentBlocks",
       "description": "Extension de la galerie TurboWarp.",
@@ -527,6 +647,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/CommentBlocks.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Community-Spotlight.js",
+      "name": "Community Spotlight",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Community-Spotlight.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:-SIPC-/consoles",
@@ -564,6 +696,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/NamelessCat/corsproxy.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/Events-Plus.js",
+      "name": "COSTUME",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Events-Plus.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:MrRedstonia/counterplusplus.js",
@@ -663,6 +807,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Camera.js",
+      "name": "default",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Camera.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:XeroName/Deltatime",
       "name": "Deltatime",
       "description": "Extension de la galerie TurboWarp.",
@@ -723,6 +879,42 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Display-Text.js",
+      "name": "Display Text (Deprecated)",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Display-Text.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Display-Text-V2.js",
+      "name": "Display Text V2",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Display-Text-V2.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/DOM-Selector.js",
+      "name": "DOM Selector",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/DOM-Selector.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:TheShovel/doodlerec.js",
       "name": "Doodle Recognition",
       "description": "A implementation of Google",
@@ -733,6 +925,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/TheShovel/doodlerec.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/Dropdown-Maker.js",
+      "name": "Dropdown Maker",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Dropdown-Maker.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:MikeDev101/e2ee.js",
@@ -771,6 +975,18 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Extra-Controls.js",
+      "name": "Extra Controls",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Extra-Controls.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:steve0greatness/timers.js",
       "name": "Extra Timers",
       "description": "Allows for the creation and management of additional timer blocks.",
@@ -807,6 +1023,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Fetch-Progress.js",
+      "name": "Fetch+",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Fetch-Progress.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:Codefoxy/cfupload.js",
       "name": "File Upload",
       "description": "Upload files to the Network, can also used with Files extension.",
@@ -833,6 +1061,19 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Files-Expanded.js",
+      "name": "filesExpanded_storedFiles",
+      "description": "[formats] is replaced with a comma-separated list of file types eg: .txt, .mp3, .png or the word any",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "files",
+        "data"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Files-Expanded.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:SharkPool/Font-Manager",
       "name": "Font Manager",
       "description": "Extension de la galerie TurboWarp.",
@@ -843,6 +1084,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Font-Manager.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Font-Manager.js",
+      "name": "Font-Manager",
+      "description": "Used in the context",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Font-Manager.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:DogeisCut/FormatNumbers.js",
@@ -893,6 +1146,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Gamepad-Expanded.js",
+      "name": "Gamepad Extended",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Gamepad-Expanded.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:SamuelLouf/Geolocation",
       "name": "geolocation",
       "description": "Extension de la galerie TurboWarp.",
@@ -903,6 +1168,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SamuelLouf/Geolocation.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Geolocation.js",
+      "name": "Geolocation",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Geolocation.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Geometry-Dash-API.js",
+      "name": "Geometry Dash API",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Geometry-Dash-API.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:justablock/gitpenguin.js",
@@ -929,6 +1218,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Ikelene/googleAuthExtension.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/Google-Spreadsheets.js",
+      "name": "Google Spreadsheets",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Google-Spreadsheets.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:NOname-awa/graphics2d",
@@ -979,6 +1280,30 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Hyper-Sense.js",
+      "name": "Hyper Sense",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Hyper-Sense.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Hyper-Sense-V2.js",
+      "name": "Hyper-Sense-V2",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Hyper-Sense-V2.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:iframe",
       "name": "iframe",
       "description": "Extension de la galerie TurboWarp.",
@@ -989,6 +1314,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/iframe.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Image-Editor.js",
+      "name": "Image Editor",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Image-Editor.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Image-Effects.js",
+      "name": "Image-Effects",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Image-Effects.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:CST1229/images",
@@ -1051,6 +1400,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/KeysPlusV2.js",
+      "name": "Keys+ V2",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/KeysPlusV2.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:CubesterYT/KeySimulation",
       "name": "KeySimulation",
       "description": "Extension de la galerie TurboWarp.",
@@ -1061,6 +1422,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/CubesterYT/KeySimulation.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Layer-Control.js",
+      "name": "Layer-Control",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Layer-Control.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Lazy-Collisions.js",
+      "name": "Lazy Collisions",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Lazy-Collisions.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:NishiOwO/libxmp.js",
@@ -1133,6 +1518,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/veggiecan/LongmanDictionary.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Looks-Expanded.js",
+      "name": "Looks-Expanded",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Looks-Expanded.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:Lily/LooksPlus",
@@ -1219,6 +1616,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Money-Utilities.js",
+      "name": "Money Utilities",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Money-Utilities.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:NOname-awa/more-comparisons",
       "name": "more comparisons",
       "description": "Extension de la galerie TurboWarp.",
@@ -1241,6 +1650,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Ashime/MoreFields.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/More-Operators.js",
+      "name": "More Operators",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/More-Operators.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:VeryGoodScratcher42/More-Types.js",
@@ -1328,6 +1749,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Newgrounds-Audio.js",
+      "name": "Newgrounds Audio",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "audio"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Newgrounds-Audio.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:Alestore/nfcwarp",
       "name": "nfcwarp",
       "description": "Extension de la galerie TurboWarp.",
@@ -1338,6 +1771,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Alestore/nfcwarp.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Niche-Toolbox.js",
+      "name": "Niche Toolbox Lite",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Niche-Toolbox.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:mdwalters/notifications",
@@ -1398,6 +1843,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/skyhigh173/object.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/MIDI-Tools.js",
+      "name": "Obscuras MIDI Tools v5.0",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/MIDI-Tools.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:NishiOwO/ode.js",
@@ -1462,6 +1919,66 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Particle-Tools.js",
+      "name": "Particle Tools",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Particle-Tools.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Particle-Engine.js",
+      "name": "Particle-Engine",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Particle-Engine.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Pause.js",
+      "name": "Pause",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Pause.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Pause-Utilities.js",
+      "name": "Pause-Utilities",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Pause-Utilities.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Pen-Papers.js",
+      "name": "Pen Papers",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "graphics"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Pen-Papers.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:ObviousAlexC/PenPlus.js",
       "name": "Pen+",
       "description": "Extended pen section! Adds blocks for drawing triangles using textures and tints, drawing images and editing their pixels, etc.",
@@ -1524,6 +2041,30 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Perlin-Noise.js",
+      "name": "Perlin Noise",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Perlin-Noise.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Pixel-Utilities.js",
+      "name": "Pixel Utilities",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Pixel-Utilities.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:pointerlock",
       "name": "pointerlock",
       "description": "Extension de la galerie TurboWarp.",
@@ -1534,6 +2075,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/pointerlock.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Popup-Phoenix.js",
+      "name": "Popup-Phoenix",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Popup-Phoenix.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:LordCat0/ProjectInterfaces.js",
@@ -1548,6 +2101,18 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/QR-Codes.js",
+      "name": "QR Codes",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/QR-Codes.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:Gen1x/random_utils.js",
       "name": "Random Utilities",
       "description": "Many blocks related to generating random values. Includes seed-based number generation, true number generation, UUIDs, random strings, etc.",
@@ -1559,6 +2124,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Gen1x/random_utils.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/Recording.js",
+      "name": "Recording",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Recording.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Recording-V2.js",
+      "name": "Recording-V2",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Recording-V2.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:true-fantom/regexp",
@@ -1585,6 +2174,18 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Renderer-Control.js",
+      "name": "Renderer-Control",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Renderer-Control.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:shreder95ua/resolution",
       "name": "resolution",
       "description": "Extension de la galerie TurboWarp.",
@@ -1609,6 +2210,18 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Rigidbodies.js",
+      "name": "Rigidbodies",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Rigidbodies.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:rixxyx",
       "name": "RixxyX",
       "description": "Extension de la galerie TurboWarp.",
@@ -1619,6 +2232,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/rixxyx.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Runtime-Events.js",
+      "name": "Runtime Events",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Runtime-Events.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:0832/rxFS2",
@@ -1633,6 +2258,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Scenes.js",
+      "name": "Scenes",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Scenes.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:0znzw/ScopeVars.js",
       "name": "Scope Variable",
       "description": "Manage your variables in a block-like structure.",
@@ -1643,6 +2280,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/0znzw/ScopeVars.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/Scratch-Utilities.js",
+      "name": "Scratch Utilities",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Scratch-Utilities.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:pooiod/Scratchblocks.js",
@@ -1657,6 +2306,30 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Script-Management.js",
+      "name": "Script Management",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Script-Management.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Script-Control.js",
+      "name": "Script-Control",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Script-Control.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:ZXMushroom63/searchApi",
       "name": "searchApi",
       "description": "Extension de la galerie TurboWarp.",
@@ -1667,6 +2340,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/ZXMushroom63/searchApi.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Seeds.js",
+      "name": "Seeds",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Seeds.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:obviousAlexC/SensingPlus",
@@ -1717,6 +2402,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Sharktilities.js",
+      "name": "Sharktilities",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sharktilities.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:TheShovel/shoveldebugger.js",
       "name": "Shovel Debugger",
       "description": "Shovel",
@@ -1765,6 +2462,18 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Since-2000.js",
+      "name": "Since-2000",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Since-2000.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:Lily/Skins",
       "name": "Skins",
       "description": "Extension de la galerie TurboWarp.",
@@ -1789,6 +2498,31 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Sound-Waves.js",
+      "name": "Sound Waves",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "audio"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sound-Waves.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/SoundCloud-API.js",
+      "name": "SoundCloud API",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "audio",
+        "network"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/SoundCloud-API.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:Lily/SoundExpanded",
       "name": "SoundExpanded",
       "description": "Extension de la galerie TurboWarp.",
@@ -1799,6 +2533,78 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/SoundExpanded.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Sprite-Panel.js",
+      "name": "SP-Panel-flash-box",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sprite-Panel.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Speech-Bubbles.js",
+      "name": "Speech Bubbles",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Speech-Bubbles.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Spotify.js",
+      "name": "Spotify",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Spotify.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Sprite-Effects.js",
+      "name": "Sprite Effects",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sprite-Effects.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Sprite-Parenting.js",
+      "name": "Sprite Parenting",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sprite-Parenting.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Sprite-Effects-V2.js",
+      "name": "Sprite-Effects-V2",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sprite-Effects-V2.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:electricfuzzball_pm/StageBrah.js",
@@ -1850,6 +2656,66 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Sty-Lists.js",
+      "name": "Sty-Lists",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "data"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sty-Lists.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Better-Input.js",
+      "name": "Submit",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Better-Input.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/SVG-Spritesheets.js",
+      "name": "SVG Spritesheets",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/SVG-Spritesheets.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/JSON-Array.js",
+      "name": "Swift JSON",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/JSON-Array.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Temporary-Variables.js",
+      "name": "Temporary Variables",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "data"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Temporary-Variables.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:Lily/TempVariables2",
       "name": "TempVariables2",
       "description": "Extension de la galerie TurboWarp.",
@@ -1886,6 +2752,30 @@
       "url": "https://turbowarp.org"
     },
     {
+      "id": "sharkpool:extension-code/Text-to-Speech.js",
+      "name": "Text to Speech",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Text-to-Speech.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Text-to-Speech-V2.js",
+      "name": "Text to Speech V2",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Text-to-Speech-V2.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "penguinmod:PuzzlingGGG/ttsrV2.js",
       "name": "Text To Speech: Redone",
       "description": "A better alternitive to the base text to speech extension. Powered by the TTStool API",
@@ -1899,6 +2789,18 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Tile-Grids.js",
+      "name": "Tile Grids",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Tile-Grids.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:-SIPC-/time",
       "name": "time",
       "description": "Extension de la galerie TurboWarp.",
@@ -1909,6 +2811,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/-SIPC-/time.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Time-Calculation.js",
+      "name": "Time Calculation",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Time-Calculation.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Timezones.js",
+      "name": "Timezones",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Timezones.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:MubiLop/toastnotifs.js",
@@ -1947,6 +2873,18 @@
       "url": "https://penguinmod.com"
     },
     {
+      "id": "sharkpool:extension-code/Tune-Shark.js",
+      "name": "Tune Shark (Legacy)",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Tune-Shark.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
       "id": "turbowarp:SharkPool/Tune-Shark-V3",
       "name": "Tune Shark V3",
       "description": "Extension de la galerie TurboWarp.",
@@ -1957,6 +2895,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Tune-Shark-V3.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Tune-Shark-V3.js",
+      "name": "Tune-Shark-V3",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Tune-Shark-V3.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Turbo-Skins.js",
+      "name": "Turbo Skins",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Turbo-Skins.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "penguinmod:NishiOwO/turbosynth.js",
@@ -2079,6 +3041,30 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/qxsck/var-and-list.js",
       "url": "https://turbowarp.org"
+    },
+    {
+      "id": "sharkpool:extension-code/Monitors-Plus.js",
+      "name": "Variables Expanded",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "data"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Monitors-Plus.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "sharkpool:extension-code/Variables-Expanded.js",
+      "name": "Variables Expanded",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "data"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Variables-Expanded.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
       "id": "turbowarp:PwLDev/vibration",
@@ -2225,6 +3211,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/DogeisCut/YetAnotherStringExtension.js",
       "url": "https://penguinmod.com"
+    },
+    {
+      "id": "sharkpool:extension-code/YouTube-Operations.js",
+      "name": "YouTube Operations",
+      "description": "Extension de la collection SharkPool.",
+      "creator": "SharkPool / communauté",
+      "source": "SharkPool",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/YouTube-Operations.js",
+      "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     }
   ]
 }
