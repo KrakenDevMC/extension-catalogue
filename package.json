@@ -1,0 +1,6 @@
+{
+  "name": "extension-hub",
+  "private": true,
+  "type": "module",
+  "scripts": {"sync": "node scripts/sync.mjs"}
+}
