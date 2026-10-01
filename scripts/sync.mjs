@@ -54,6 +54,18 @@ function tags(name, desc="") {
   return out.length?out:["other"];
 }
 
+async function safeRepoInfo(owner, repo) {
+  try {
+    const repoData = await get(`${GH}/repos/${owner}/${repo}`);
+    return {
+      exists: true,
+      defaultBranch: repoData.default_branch || "main"
+    };
+  } catch {
+    return { exists: false, defaultBranch: "main" };
+  }
+}
+
 async function turboWarp() {
   const list=await raw(`${RAW}/TurboWarp/extensions/master/extensions/extensions.json`);
   const paths=[...list.matchAll(/"([^"]+)"/g)].map(m=>m[1]).filter(x=>x && !x.startsWith("//"));
@@ -84,49 +96,89 @@ async function penguinMod() {
   return out;
 }
 
-async function githubTree(owner,repo,branch="master") {
-  const data=await get(`${GH}/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`);
-  return data.tree.filter(x=>x.type==="blob").map(x=>x.path);
+async function githubTree(owner, repo, branch = "main") {
+  const data = await get(`${GH}/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`);
+  return data.tree.filter(x => x.type === "blob").map(x => x.path);
 }
 
 async function sharkPool() {
-  const paths=await githubTree("SharkPool-SP","SharkPools-Extensions","master");
-  const js=paths.filter(p=>/^extension-code\/.*\.js$/i.test(p));
-  return (await Promise.all(js.map(async p=>{
-    try {
-      const code=await raw(`${RAW}/SharkPool-SP/SharkPools-Extensions/master/${p}`);
-      let name = pick(code,"name");
-      if (!name) name = p.split("/").pop().replace(/\.js$/,"");
-      name = sanitizeName(name);
-      if (!name) return null;
-      const desc=pick(code,"description");
-      return {id:`sharkpool:${p}`,name,description:desc||"Extension de la collection SharkPool.",creator:"SharkPool / communauté",source:"SharkPool",tags:tags(name,desc),codeUrl:`${RAW}/SharkPool-SP/SharkPools-Extensions/master/${p}`,url:"https://sharkpool.tk"};
-    } catch { return null; }
-  }))).filter(Boolean);
+  const repo = await safeRepoInfo("SharkPool-SP", "SharkPools-Extensions");
+  if (!repo.exists) {
+    console.warn("SharkPool source unavailable: repo not found");
+    return [];
+  }
+
+  try {
+    const branch = repo.defaultBranch;
+    const paths = await githubTree("SharkPool-SP", "SharkPools-Extensions", branch);
+    const js = paths.filter(p => /^extension-code\/.*\.js$/i.test(p));
+    return (await Promise.all(js.map(async p => {
+      try {
+        const code = await raw(`${RAW}/SharkPool-SP/SharkPools-Extensions/${branch}/${p}`);
+        let name = pick(code, "name");
+        if (!name) name = p.split("/").pop().replace(/\.js$/, "");
+        name = sanitizeName(name);
+        if (!name) return null;
+        const desc = pick(code, "description");
+        return {
+          id: `sharkpool:${p}`,
+          name,
+          description: desc || "Extension de la collection SharkPool.",
+          creator: "SharkPool / communauté",
+          source: "SharkPool",
+          tags: tags(name, desc),
+          codeUrl: `${RAW}/SharkPool-SP/SharkPools-Extensions/${branch}/${p}`,
+          url: "https://github.com/SharkPool-SP/SharkPools-Extensions"
+        };
+      } catch { return null; }
+    }))).filter(Boolean);
+  } catch (e) {
+    console.warn(`SharkPool error: ${e.message}`);
+    return [];
+  }
 }
 
 async function mistium() {
-  const paths=await githubTree("Mistium","extensions.mistium","master").catch(()=>[]);
-  const js=paths.filter(p=>p.endsWith(".js") && !p.includes("node_modules"));
-  return (await Promise.all(js.map(async p=>{
-    try {
-      const code=await raw(`${RAW}/Mistium/extensions.mistium/master/${p}`);
-      let name = pick(code,"name");
-      if (!name) name = p.split("/").pop().replace(/\.js$/,"").replace(/[-_]/g," ");
-      name = sanitizeName(name);
-      if (!name) return null;
-      const desc=pick(code,"description");
-      return {id:`mistium:${p}`,name,description:desc||"Extension de Mistium.",creator:"Mistium",source:"Mistium",tags:tags(name,desc),codeUrl:`${RAW}/Mistium/extensions.mistium/master/${p}`,url:"https://mistium.com"};
-    } catch { return null; }
-  }))).filter(Boolean);
+  try {
+    const paths = await githubTree("Mistium", "extensions.mistium", "master").catch(() => []);
+    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules"));
+    return (await Promise.all(js.map(async p => {
+      try {
+        const code = await raw(`${RAW}/Mistium/extensions.mistium/master/${p}`);
+        let name = pick(code, "name");
+        if (!name) name = p.split("/").pop().replace(/\.js$/, "").replace(/[-_]/g, " ");
+        name = sanitizeName(name);
+        if (!name) return null;
+        const desc = pick(code, "description");
+        return {
+          id: `mistium:${p}`,
+          name,
+          description: desc || "Extension de Mistium.",
+          creator: "Mistium",
+          source: "Mistium",
+          tags: tags(name, desc),
+          codeUrl: `${RAW}/Mistium/extensions.mistium/master/${p}`,
+          url: "https://mistium.com"
+        };
+      } catch { return null; }
+    }))).filter(Boolean);
+  } catch (e) {
+    console.warn(`Mistium error: ${e.message}`);
+    return [];
+  }
 }
 
 async function turboWarpCommunity() {
+  const repo = await safeRepoInfo("TurboWarp", "community-extensions");
+  if (!repo.exists) {
+    console.warn("TurboWarp Community source unavailable: repo not found");
+    return [];
+  }
+
   try {
-    const paths = await githubTree("TurboWarp", "community-extensions", "main").catch(() => 
-      githubTree("TurboWarp", "community-extensions", "master"));
+    const branch = repo.defaultBranch;
+    const paths = await githubTree("TurboWarp", "community-extensions", branch);
     const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules") && !p.startsWith("."));
-    const branch = await get(`${GH}/repos/TurboWarp/community-extensions`).then(r => r.default_branch).catch(() => "main");
     return (await Promise.all(js.map(async p => {
       try {
         const code = await raw(`${RAW}/TurboWarp/community-extensions/${branch}/${p}`);
@@ -149,14 +201,20 @@ async function turboWarpCommunity() {
       } catch { return null; }
     }))).filter(Boolean);
   } catch (e) {
-    console.warn(`Source TurboWarp Community ignorée: ${e.message}`);
+    console.warn(`TurboWarp Community error: ${e.message}`);
     return [];
   }
 }
 
 async function fetchExtensions() {
+  const repo = await safeRepoInfo("Fetch-fetch", "Extensions");
+  if (!repo.exists) {
+    console.warn("Fetch Extensions source unavailable: repo not found");
+    return [];
+  }
+
   try {
-    const branch = await get(`${GH}/repos/Fetch-fetch/Extensions`).then(r => r.default_branch).catch(() => "main");
+    const branch = repo.defaultBranch;
     const paths = await githubTree("Fetch-fetch", "Extensions", branch);
     const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules") && !p.startsWith("."));
     return (await Promise.all(js.map(async p => {
@@ -180,14 +238,20 @@ async function fetchExtensions() {
       } catch { return null; }
     }))).filter(Boolean);
   } catch (e) {
-    console.warn(`Source Fetch Extensions ignorée: ${e.message}`);
+    console.warn(`Fetch Extensions error: ${e.message}`);
     return [];
   }
 }
 
 async function limeExtensions() {
+  const repo = await safeRepoInfo("LimE-Modifier", "lime-extensions");
+  if (!repo.exists) {
+    console.warn("Lime Extensions source unavailable: repo not found");
+    return [];
+  }
+
   try {
-    const branch = await get(`${GH}/repos/LimE-Modifier/lime-extensions`).then(r => r.default_branch).catch(() => "main");
+    const branch = repo.defaultBranch;
     const paths = await githubTree("LimE-Modifier", "lime-extensions", branch);
     const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules") && !p.startsWith("."));
     return (await Promise.all(js.map(async p => {
@@ -211,7 +275,7 @@ async function limeExtensions() {
       } catch { return null; }
     }))).filter(Boolean);
   } catch (e) {
-    console.warn(`Source Lime Extensions ignorée: ${e.message}`);
+    console.warn(`Lime Extensions error: ${e.message}`);
     return [];
   }
 }
