@@ -84,52 +84,6 @@ async function penguinMod() {
   return out;
 }
 
-async function penguinModEditor() {
-  try {
-    const indexCode = await raw(`${RAW}/PenguinMod/PenguinMod/main/editor/extensions/index.js`);
-    const out = [];
-    
-    // Parse les extensions du fichier index
-    const re = /import\s+(?:{[^}]*}|\w+)\s+from\s+['"]\.\/([^'"]+)['"]/g;
-    const imports = [];
-    let match;
-    while ((match = re.exec(indexCode)) !== null) {
-      imports.push(match[1]);
-    }
-    
-    // Récupère les extensions via le fichier d'index
-    for (const imp of imports) {
-      try {
-        const extCode = await raw(`${RAW}/PenguinMod/PenguinMod/main/editor/extensions/${imp}.js`).catch(() => "");
-        if (!extCode) continue;
-        
-        let name = pick(extCode, "name");
-        if (!name) name = imp.replace(/[-_]/g, " ");
-        name = sanitizeName(name);
-        if (!name) continue;
-        
-        const desc = pick(extCode, "description");
-        out.push({
-          id: `penguinmod-editor:${imp}`,
-          name,
-          description: desc || "Extension de l'éditeur PenguinMod.",
-          creator: "PenguinMod",
-          source: "PenguinMod Editor",
-          tags: tags(name, desc),
-          codeUrl: `${RAW}/PenguinMod/PenguinMod/main/editor/extensions/${imp}.js`,
-          url: "https://penguinmod.com"
-        });
-      } catch (e) {
-        // Ignore les extensions qui ne peuvent pas être lues
-      }
-    }
-    return out;
-  } catch (e) {
-    console.error("Erreur lors de la lecture de PenguinMod Editor:", e.message);
-    return [];
-  }
-}
-
 async function githubTree(owner,repo,branch="master") {
   const data=await get(`${GH}/repos/${owner}/${repo}/git/trees/${branch}?recursive=1`);
   return data.tree.filter(x=>x.type==="blob").map(x=>x.path);
@@ -169,11 +123,13 @@ async function mistium() {
 
 async function turboWarpCommunity() {
   try {
-    const paths = await githubTree("TurboWarp", "community-extensions", "master");
-    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules"));
+    const paths = await githubTree("TurboWarp", "community-extensions", "main").catch(() => 
+      githubTree("TurboWarp", "community-extensions", "master"));
+    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules") && !p.startsWith("."));
+    const branch = await get(`${GH}/repos/TurboWarp/community-extensions`).then(r => r.default_branch).catch(() => "main");
     return (await Promise.all(js.map(async p => {
       try {
-        const code = await raw(`${RAW}/TurboWarp/community-extensions/master/${p}`);
+        const code = await raw(`${RAW}/TurboWarp/community-extensions/${branch}/${p}`);
         let name = pick(code, "name");
         if (!name) name = p.split("/").pop().replace(/\.js$/, "").replace(/[-_]/g, " ");
         name = sanitizeName(name);
@@ -187,24 +143,25 @@ async function turboWarpCommunity() {
           creator,
           source: "TurboWarp Community",
           tags: tags(name, desc),
-          codeUrl: `${RAW}/TurboWarp/community-extensions/master/${p}`,
+          codeUrl: `${RAW}/TurboWarp/community-extensions/${branch}/${p}`,
           url: "https://turbowarp.org"
         };
       } catch { return null; }
     }))).filter(Boolean);
   } catch (e) {
-    console.error("Erreur TurboWarp Community:", e.message);
+    console.warn(`Source TurboWarp Community ignorée: ${e.message}`);
     return [];
   }
 }
 
 async function fetchExtensions() {
   try {
-    const paths = await githubTree("Fetch-fetch", "Extensions", "main");
-    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules"));
+    const branch = await get(`${GH}/repos/Fetch-fetch/Extensions`).then(r => r.default_branch).catch(() => "main");
+    const paths = await githubTree("Fetch-fetch", "Extensions", branch);
+    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules") && !p.startsWith("."));
     return (await Promise.all(js.map(async p => {
       try {
-        const code = await raw(`${RAW}/Fetch-fetch/Extensions/main/${p}`);
+        const code = await raw(`${RAW}/Fetch-fetch/Extensions/${branch}/${p}`);
         let name = pick(code, "name");
         if (!name) name = p.split("/").pop().replace(/\.js$/, "").replace(/[-_]/g, " ");
         name = sanitizeName(name);
@@ -217,24 +174,25 @@ async function fetchExtensions() {
           creator: "Fetch",
           source: "Fetch",
           tags: tags(name, desc),
-          codeUrl: `${RAW}/Fetch-fetch/Extensions/main/${p}`,
-          url: "https://fetchcrm.com"
+          codeUrl: `${RAW}/Fetch-fetch/Extensions/${branch}/${p}`,
+          url: "https://github.com/Fetch-fetch/Extensions"
         };
       } catch { return null; }
     }))).filter(Boolean);
   } catch (e) {
-    console.error("Erreur Fetch Extensions:", e.message);
+    console.warn(`Source Fetch Extensions ignorée: ${e.message}`);
     return [];
   }
 }
 
 async function limeExtensions() {
   try {
-    const paths = await githubTree("LimE-Modifier", "lime-extensions", "main");
-    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules"));
+    const branch = await get(`${GH}/repos/LimE-Modifier/lime-extensions`).then(r => r.default_branch).catch(() => "main");
+    const paths = await githubTree("LimE-Modifier", "lime-extensions", branch);
+    const js = paths.filter(p => p.endsWith(".js") && !p.includes("node_modules") && !p.startsWith("."));
     return (await Promise.all(js.map(async p => {
       try {
-        const code = await raw(`${RAW}/LimE-Modifier/lime-extensions/main/${p}`);
+        const code = await raw(`${RAW}/LimE-Modifier/lime-extensions/${branch}/${p}`);
         let name = pick(code, "name");
         if (!name) name = p.split("/").pop().replace(/\.js$/, "").replace(/[-_]/g, " ");
         name = sanitizeName(name);
@@ -247,26 +205,26 @@ async function limeExtensions() {
           creator: "LimE-Modifier",
           source: "Lime",
           tags: tags(name, desc),
-          codeUrl: `${RAW}/LimE-Modifier/lime-extensions/main/${p}`,
+          codeUrl: `${RAW}/LimE-Modifier/lime-extensions/${branch}/${p}`,
           url: "https://github.com/LimE-Modifier/lime-extensions"
         };
       } catch { return null; }
     }))).filter(Boolean);
   } catch (e) {
-    console.error("Erreur Lime Extensions:", e.message);
+    console.warn(`Source Lime Extensions ignorée: ${e.message}`);
     return [];
   }
 }
 
 const results=[];
-for (const fn of [turboWarp, penguinMod, penguinModEditor, sharkPool, mistium, turboWarpCommunity, fetchExtensions, limeExtensions]) {
+for (const fn of [turboWarp, penguinMod, sharkPool, mistium, turboWarpCommunity, fetchExtensions, limeExtensions]) {
   try { 
     const x = await fn(); 
     results.push(...x); 
-    console.log(`OK ${fn.name}: ${x.length}`); 
+    console.log(`✓ ${fn.name}: ${x.length} extensions`); 
   }
   catch(e){ 
-    console.error(`Source ${fn.name} ignorée:`, e.message); 
+    console.error(`✗ Source ${fn.name} ignorée: ${e.message}`); 
   }
 }
 const seen=new Set(), extensions=results
@@ -275,4 +233,4 @@ const seen=new Set(), extensions=results
   .sort((a,b)=>a.name.localeCompare(b.name));
 await fs.mkdir("data",{recursive:true});
 await fs.writeFile("data/catalog.json",JSON.stringify({generatedAt:new Date().toISOString(),extensions},null,2)+"\n");
-console.log(`Catalogue: ${extensions.length} extensions`);
+console.log(`\n📦 Catalogue final: ${extensions.length} extensions uniques de ${new Set(extensions.map(e => e.source)).size} sources`);
