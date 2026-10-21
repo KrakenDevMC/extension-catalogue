@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-21T06:57:50.867Z",
+  "generatedAt": "2026-10-21T09:57:47.484Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -1566,18 +1566,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/math.js",
       "url": "https://turbowarp.org"
-    },
-    {
-      "id": "penguinmod:jwklong/mathematics.js",
-      "name": "Mathematics",
-      "description": "Complicated maths extension for nerds.",
-      "creator": "jwklong",
-      "source": "PenguinMod",
-      "tags": [
-        "extension"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/jwklong/mathematics.js",
-      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:Lily/McUtils",
