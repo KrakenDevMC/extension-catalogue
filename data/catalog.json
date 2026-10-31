@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T19:02:20.500Z",
+  "generatedAt": "2026-10-31T21:18:34.047Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -2246,15 +2246,15 @@
       "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
     },
     {
-      "id": "penguinmod:0znzw/ScopeVars.js",
-      "name": "Scope Variable",
+      "id": "penguinmod:0znzw/ScopeVars2.js",
+      "name": "Scope Variables",
       "description": "Manage your variables in a block-like structure.",
       "creator": "0znzw",
       "source": "PenguinMod",
       "tags": [
         "data"
       ],
-      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/0znzw/ScopeVars.js",
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/0znzw/ScopeVars2.js",
       "url": "https://penguinmod.com"
     },
     {
