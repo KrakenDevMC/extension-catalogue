@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T07:09:08.967Z",
+  "generatedAt": "2026-11-02T15:25:50.933Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -2548,7 +2548,7 @@
     },
     {
       "id": "sharkpool:extension-code/Sprite-Effects.js",
-      "name": "Sprite Effects",
+      "name": "Sprite Effects (Deprecated)",
       "description": "Extension de la collection SharkPool.",
       "creator": "SharkPool / communauté",
       "source": "SharkPool",
