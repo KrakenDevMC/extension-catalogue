@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T17:00:09.638Z",
+  "generatedAt": "2026-11-04T22:23:50.258Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -2992,6 +2992,18 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/runtime-options.js",
+      "url": "https://turbowarp.org"
+    },
+    {
+      "id": "turbowarp:utilities",
+      "name": "utilities",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "TurboWarp",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/utilities.js",
       "url": "https://turbowarp.org"
     },
     {
