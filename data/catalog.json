@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T03:22:29.932Z",
+  "generatedAt": "2026-11-05T11:48:45.764Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -845,7 +845,7 @@
     {
       "id": "penguinmod:pooiod/Dictation.js",
       "name": "Dictation",
-      "description": "Convert your voice into text. (not supported in all browsers)",
+      "description": "Convert your voice into text",
       "creator": "pooiod",
       "source": "PenguinMod",
       "tags": [
