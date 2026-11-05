@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-05T12:04:27.114Z",
+  "generatedAt": "2026-11-05T19:25:27.526Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -1290,6 +1290,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Hyper-Sense-V2.js",
       "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "penguinmod:MubiLop/icastrays.js",
+      "name": "iCastRays",
+      "description": "Cast rays into other sprites in your project.",
+      "creator": "MubiLop",
+      "source": "PenguinMod",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/icastrays.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "turbowarp:iframe",
