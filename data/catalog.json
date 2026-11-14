@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T16:55:36.606Z",
+  "generatedAt": "2026-11-14T20:21:00.285Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -1905,18 +1905,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/SammerLOL/pangapi.js",
       "url": "https://penguinmod.com"
-    },
-    {
-      "id": "turbowarp:SharkPool/Particle-Engine",
-      "name": "Particle Engine",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "SharkPool",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SharkPool/Particle-Engine.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "sharkpool:extension-code/Particle-Tools.js",
