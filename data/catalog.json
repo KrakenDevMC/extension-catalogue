@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T15:29:51.206Z",
+  "generatedAt": "2026-11-14T16:55:36.606Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -3148,6 +3148,18 @@
         "network"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/godslayerakp/ws.js",
+      "url": "https://turbowarp.org"
+    },
+    {
+      "id": "turbowarp:SamuelLouf/Wikipedia",
+      "name": "Wikipedia",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "SamuelLouf",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/SamuelLouf/Wikipedia.js",
       "url": "https://turbowarp.org"
     },
     {
