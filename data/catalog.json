@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-16T09:21:05.501Z",
+  "generatedAt": "2026-11-16T17:51:07.887Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -2593,6 +2593,18 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Sprite-Effects-V2.js",
       "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
+    },
+    {
+      "id": "penguinmod:MubiLop/spritesheeter.js",
+      "name": "Spritesheeter",
+      "description": "Manage Spritesheets with ease and no trouble.",
+      "creator": "MubiLop",
+      "source": "PenguinMod",
+      "tags": [
+        "game"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/spritesheeter.js",
+      "url": "https://penguinmod.com"
     },
     {
       "id": "penguinmod:electricfuzzball_pm/StageBrah.js",
