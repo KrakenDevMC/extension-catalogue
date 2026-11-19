@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-18T21:16:26.426Z",
+  "generatedAt": "2026-11-19T01:39:35.457Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -1674,6 +1674,18 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/NexusKitten/moremotion.js",
+      "url": "https://turbowarp.org"
+    },
+    {
+      "id": "turbowarp:LukeAnimationss/MoreRandomness",
+      "name": "MoreRandomness",
+      "description": "Extension de la galerie TurboWarp.",
+      "creator": "LukeAnimationss",
+      "source": "TurboWarp",
+      "tags": [
+        "other"
+      ],
+      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/LukeAnimationss/MoreRandomness.js",
       "url": "https://turbowarp.org"
     },
     {
