@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-26T23:39:12.749Z",
+  "generatedAt": "2026-11-27T06:27:04.529Z",
   "extensions": [
     {
       "id": "turbowarp:gamejolt",
@@ -194,18 +194,6 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/true-fantom/base.js",
-      "url": "https://turbowarp.org"
-    },
-    {
-      "id": "turbowarp:battery",
-      "name": "battery",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/battery.js",
       "url": "https://turbowarp.org"
     },
     {
@@ -539,19 +527,6 @@
       "url": "https://turbowarp.org"
     },
     {
-      "id": "turbowarp:clouddata-ping",
-      "name": "clouddata ping",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "network",
-        "data"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/clouddata-ping.js",
-      "url": "https://turbowarp.org"
-    },
-    {
       "id": "penguinmod:MikeDev101/cloudlink.js",
       "name": "CloudLink",
       "description": "A powerful WebSocket extension for Scratch. Allows for online connectivity to servers for things like multiplayer.",
@@ -745,18 +720,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/gaimerI17/crypto.js",
       "url": "https://penguinmod.com"
-    },
-    {
-      "id": "turbowarp:cursor",
-      "name": "cursor",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/cursor.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:qxsck/data-analysis",
@@ -1023,18 +986,6 @@
       "url": "https://turbowarp.org"
     },
     {
-      "id": "turbowarp:fetch",
-      "name": "fetch",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/fetch.js",
-      "url": "https://turbowarp.org"
-    },
-    {
       "id": "sharkpool:extension-code/Fetch-Progress.js",
       "name": "Fetch+",
       "description": "Extension de la collection SharkPool.",
@@ -1144,18 +1095,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/WAYLIVES/FreeServers.js",
       "url": "https://penguinmod.com"
-    },
-    {
-      "id": "turbowarp:gamepad",
-      "name": "gamepad",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "game"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/gamepad.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "sharkpool:extension-code/Gamepad-Expanded.js",
@@ -1314,18 +1253,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/icastrays.js",
       "url": "https://penguinmod.com"
-    },
-    {
-      "id": "turbowarp:iframe",
-      "name": "iframe",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/iframe.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "sharkpool:extension-code/Image-Editor.js",
@@ -1493,18 +1420,6 @@
         "other"
       ],
       "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/Lily/lmsutils.js",
-      "url": "https://turbowarp.org"
-    },
-    {
-      "id": "turbowarp:local-storage",
-      "name": "local storage",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "files"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/local-storage.js",
       "url": "https://turbowarp.org"
     },
     {
@@ -1725,18 +1640,6 @@
       "url": "https://penguinmod.com"
     },
     {
-      "id": "turbowarp:navigator",
-      "name": "navigator",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/navigator.js",
-      "url": "https://turbowarp.org"
-    },
-    {
       "id": "turbowarp:true-fantom/network",
       "name": "network",
       "description": "Extension de la galerie TurboWarp.",
@@ -1807,18 +1710,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/MubiLop/numutils.js",
       "url": "https://penguinmod.com"
-    },
-    {
-      "id": "turbowarp:numerical-encoding-2",
-      "name": "numerical encoding 2",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/numerical-encoding-2.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:cs2627883/numericalencoding",
@@ -2075,18 +1966,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/SharkPool-SP/SharkPools-Extensions/main/extension-code/Pixel-Utilities.js",
       "url": "https://github.com/SharkPool-SP/SharkPools-Extensions"
-    },
-    {
-      "id": "turbowarp:pointerlock",
-      "name": "pointerlock",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/pointerlock.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "sharkpool:extension-code/Popup-Phoenix.js",
@@ -2631,18 +2510,6 @@
       "url": "https://penguinmod.com"
     },
     {
-      "id": "turbowarp:steamworks",
-      "name": "Steamworks",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/steamworks.js",
-      "url": "https://turbowarp.org"
-    },
-    {
       "id": "penguinmod:Gen1x/storage_plus.js",
       "name": "Storage Plus",
       "description": "A storage extension with many more features. Featuring server storage (with a fast server), local storage and more!",
@@ -3017,18 +2884,6 @@
       ],
       "codeUrl": "https://raw.githubusercontent.com/PenguinMod/PenguinMod-ExtensionsGallery/main/static/Anonymous_cat1/updateFile.js",
       "url": "https://penguinmod.com"
-    },
-    {
-      "id": "turbowarp:runtime-options",
-      "name": "username",
-      "description": "Extension de la galerie TurboWarp.",
-      "creator": "TurboWarp",
-      "source": "TurboWarp",
-      "tags": [
-        "other"
-      ],
-      "codeUrl": "https://raw.githubusercontent.com/TurboWarp/extensions/master/extensions/runtime-options.js",
-      "url": "https://turbowarp.org"
     },
     {
       "id": "turbowarp:utilities",
